@@ -9,10 +9,10 @@ The project is written in Python and makes use of Spotipy which is a Python wrap
 #### Links: [Playlists](#playlist-links) | [Prerequisites](#prerequisites) | [Usage](#usage) | [Interactive Figures](#visualisations)
 
 #### Things to note
-- The data set does not take advanteage of every metric available for analysis - this is something that I will revisit in the future. Two of the most important metrics I'd like to take advantage of are `Release Date` and `Popularity` as the current playlists generated have a mix of old a new songs which can be a bit jarring even if the songs are similar.
+- The data set does not take advantage of every metric available for analysis - this is something that I will revisit in the future. Two of the most important metrics I'd like to take advantage of are `Release Date` and `Popularity` as the current playlists generated have a mix of old and new songs which can be a quite jarring even if the songs are similar.
 - During implementation I noticed that a significant proportion (~25%) of the popularity values requested are zero. This is a known issue and is being worked on at the time of writing. This bug has impacted the type of visualisations I can produce and the level of analysis I can conduct - it is something I am looking forward to revisiting in the future.
-- Data extraction can take a long time to run (~1.2 seconds per song) depending on the subset of your library you are trying to extract. I have taken steps to introduce artifical delays to avoid hitting an API request limit - feel free to play wiht these values for slightly better performance at the risk of running a timeout error
-- As explained in [data.py](https://github.com/r-reji/spotifyPlaylistClustering/blob/main/data.py), you can take advantage of parallel pricessing or multiple API keys for better data extraction performance - this is somthing you will need to implement yourself
+- Data extraction can take a long time to run (~1.2 seconds per song) depending on the subset of your library you are trying to extract. I have taken steps to introduce artificial delays to avoid hitting an API request limit - feel free to play with these values for slightly better performance at the risk of running a timeout error.
+- As explained in [data.py](https://github.com/r-reji/spotifyPlaylistClustering/blob/main/data.py), you can take advantage of parallel processing or multiple API keys for better data extraction performance - this is somthing you will need to implement yourself!
 
 #### Prerequisites
 
@@ -25,24 +25,25 @@ The project is written in Python and makes use of Spotipy which is a Python wrap
   
 #### Dependancies
 Please make sure you have installed the necessary libraries before running the files. 
-The data used for this file is generated from `data.py` and contains a small subset of my Spotify library (information for ~2000 songs). This data may not be representative of your own library.
+The data used for these files is generated from `data.py` and contains a small subset of my Spotify library (data on 1929 songs). This data may not be representative of your own library.
 
 #### Usage
-I have included detailed exmplanations of each file within them, here I will provide a top line overview.
+I have included detailed explanations of each file within them, here I provide a top line overview.
 
 - [data.py](https://github.com/r-reji/spotifyPlaylistClustering/blob/main/data.py)
    - Extracts song data from any spotify playlist using your API key
    - Request audio feature data for each song and collates it into a .csv file
 - [cluster.py](https://github.com/r-reji/spotifyPlaylistClustering/blob/main/cluster.py)
    - Selects the data for analysis and standardises it for forther analysis
-   - Perform principle component analysis to reduce the complexity of the data set
+   - Performs principle component analysis to reduce the complexity of the data set
    - Use the WCSS (within-cluster sum of squares) metric and the elbow method to implement a k-means clustering algorithm
 - [playlist.py](https://github.com/r-reji/spotifyPlaylistClustering/blob/main/playlist.py)
    - Uses the clustered data produced form the k-means algorithm to define playlists
    - Makes use of user specific authentication to automatically generate a playlist for each cluster in your Spotify library
 
 #### Visualisations
-Here I include some of the visualisations generated. There are some other cumulative vairance plots that you can check out in [figures.](https://github.com/r-reji/spotifyPlaylistClustering/tree/main/figures) Please note that the figures that have hyperlinks below will also take you to a lovely interactive version where hovers will give you song information.
+Here I include some of the visualisations generated. There are some other cumulative variance plots that you can check out in [figures.](https://github.com/r-reji/spotifyPlaylistClustering/tree/main/figures). 
+Please note that the figures that have hyperlinks below will take you to a lovely interactive version where hovers will give you song information.
 
 - [Figure 1: 'Acousticness' vs 'Speechiness'](https://htmlpreview.github.io/?https://github.com/r-reji/spotifyPlaylistClustering/blob/main/figures/acousticnessSpeechiness.html) 
  
@@ -60,7 +61,7 @@ Here I include some of the visualisations generated. There are some other cumula
 ![pcaMetricsByCluster](https://user-images.githubusercontent.com/112977394/196703998-cd22d9f5-6cf2-4b12-bdbf-16d4b5274a7c.png)
 
 #### Playlist Links
-I may change the privacy of the playlists over time so you will need the links to access them. I do not plan to update these playlists at any point but I will be implementing a better clustering solution at some point.
+I may change the privacy of the playlists over time so you will need the links to access them. I do not plan to update these playlists at any point but I will be implementing a better clustering solution at some in the near future.
 
 Here are the 7 playlists that were generated from 1929 songs:
 
