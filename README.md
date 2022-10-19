@@ -4,7 +4,7 @@
 
 #### If you would like to take a look at the playlists generated check out these links.
 
-The project is written in Python and makes use of the Spotipy which is a Python wrapper for the Spotify Web API.
+The project is written in Python and makes use of Spotipy which is a Python wrapper for the Spotify Web API.
 
 #### Links: [Playlists](#playlist-links) | [Prerequisites](#prerequisites) | [Usage](#usage) | [Interactive Figures](#visualisations)
 
