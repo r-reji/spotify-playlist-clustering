@@ -42,6 +42,12 @@ I have included detailed exmplanations of each file within them, here I will pro
    - Makes use of user specific authentication to automatically generate a playlist for each cluster in your Spotify library
 
 #### Visualisations
+Here I include some of the visualisations generated. There are some other cumulative vairance plots that you can check out in [figures.](https://github.com/r-reji/spotifyPlaylistClustering/tree/main/figures) Please note that the figures that have hyperlinks below will also take you to a lovely interactive version where hovers will give you song information.
+
+- [Figure 1: 'Acousticness' vs 'Speechiness']()
+- [Figure 2: 'Energy' vs 'Danceability']()
+- [Figure 3: 'PCA Metric 1' vs 'PCA Metric 2']()
+- [Figure 4: 'PCA Metrics by Cluster']()
 
 #### Playlist Links
 I may change the privacy of the playlists over time so you will need the links to access them. I do not plan to update these playlists at any point but I will be implementing a better clustering solution at some point.
