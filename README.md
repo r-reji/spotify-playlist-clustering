@@ -44,16 +44,16 @@ I have included detailed exmplanations of each file within them, here I will pro
 #### Visualisations
 Here I include some of the visualisations generated. There are some other cumulative vairance plots that you can check out in [figures.](https://github.com/r-reji/spotifyPlaylistClustering/tree/main/figures) Please note that the figures that have hyperlinks below will also take you to a lovely interactive version where hovers will give you song information.
 
-- [Figure 1: 'Acousticness' vs 'Speechiness']()
+- [Figure 1: 'Acousticness' vs 'Speechiness'](https://htmlpreview.github.io/?https://github.com/r-reji/spotifyPlaylistClustering/blob/main/figures/acousticnessSpeechiness.html)
 ![acousticnessSpeechiness](https://user-images.githubusercontent.com/112977394/196700847-249a9ad7-c260-4439-9805-a51015a95abb.png)
 
-- [Figure 2: 'Energy' vs 'Danceability']()
+- [Figure 2: 'Energy' vs 'Danceability'](https://htmlpreview.github.io/?https://github.com/r-reji/spotifyPlaylistClustering/blob/main/figures/energyDanceability.html)
 ![energyDanceability](https://user-images.githubusercontent.com/112977394/196703934-d9a6b759-670a-4289-8d9f-6ffc9829447e.png)
 
-- [Figure 3: 'PCA Metric 1' vs 'PCA Metric 2']()
+- [Figure 3: 'PCA Metric 1' vs 'PCA Metric 2'](https://htmlpreview.github.io/?https://github.com/r-reji/spotifyPlaylistClustering/blob/main/figures/metric1Metric2.html)
 ![metric1Metric2](https://user-images.githubusercontent.com/112977394/196703971-9c4195ac-0e06-488c-8dc2-ce3d2ba45955.png)
 
-- [Figure 4: 'PCA Metrics by Cluster']()
+- Figure 4: 'PCA Metrics by Cluster'
 ![pcaMetricsByCluster](https://user-images.githubusercontent.com/112977394/196703998-cd22d9f5-6cf2-4b12-bdbf-16d4b5274a7c.png)
 
 #### Playlist Links
