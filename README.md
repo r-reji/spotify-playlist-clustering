@@ -6,7 +6,7 @@
 
 The project is written in Python and makes use of the Spotipy which is a Python wrapper for the Spotify Web API.
 
-#### Links: Playlists | Prerequisites | Usage | Interactive Figures
+#### Links: [Playlists](#playlist-links) | [Prerequisites](#prerequisites) | [Usage](#usage) | [Interactive Figures](#visualisations)
 
 #### Things to note
 - The data set does not take advanteage of every metric available for analysis - this is something that I will revisit in the future. Two of the most important metrics I'd like to take advantage of are `Release Date` and `Popularity` as the current playlists generated have a mix of old a new songs which can be a bit jarring even if the songs are similar.
@@ -40,6 +40,8 @@ I have included detailed exmplanations of each file within them, here I will pro
 - [playlist.py](https://github.com/r-reji/spotifyPlaylistClustering/blob/main/playlist.py)
    - Uses the clustered data produced form the k-means algorithm to define playlists
    - Makes use of user specific authentication to automatically generate a playlist for each cluster in your Spotify library
+
+#### Visualisations
 
 #### Playlist Links
 I may change the privacy of the playlists over time so you will need the links to access them. I do not plan to update these playlists at any point but I will be implementing a better clustering solution at some point.
