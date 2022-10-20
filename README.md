@@ -64,7 +64,7 @@ Here I include some of the visualisations generated. There are some other cumula
 >![pcaMetricsByCluster](https://user-images.githubusercontent.com/112977394/196703998-cd22d9f5-6cf2-4b12-bdbf-16d4b5274a7c.png)
 
 #### Playlist Links
-I may change the privacy of the playlists over time so you will need the links to access them. I do not plan to update these playlists at any point but I will be implementing a better clustering solution at some in the near future.
+I may change the privacy of the playlists over time so you will need the links to access them. I do not plan to update these playlists at any point but I will be implementing a better clustering solution at some point in the near future.
 
 Here are the 7 playlists that were generated from 1929 songs:
 
