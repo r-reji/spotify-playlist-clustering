@@ -66,13 +66,13 @@ Here I include some of the visualisations generated. There are some other cumula
 #### Playlist Links
 These playlists will most likely remain untouched by me except for potential privacy changes. In any case, you will still be able to access them through the links below.
 
-- [Playlist 1](https://open.spotify.com/playlist/7EqhbZpWL2bTsl9bYprD5K?si=e7f5399e57174f8e&pt=12ec58d4377c767b39ec00240c12b466)
-- [Playlist 2](https://open.spotify.com/playlist/2UjwUlCtMSG5fJqCIUduGb?si=209a9aa128c44168&pt=6a7b668e2915ced615aeeadd45682b79)
-- [Playlist 3](https://open.spotify.com/playlist/0LOQHsLS4Ah8qoGEocD2BV?si=464f7d648d3540f2&pt=11064f5efa5ff0877cad71dc363b4370)
-- [Playlist 4](https://open.spotify.com/playlist/58zj05l9BBQ7qRF5aZAdJs?si=9b46cf11371440a5&pt=5dbfc33d43751bab5a6585aa7af69f65)
-- [Playlist 5](https://open.spotify.com/playlist/2k1O2u8wcWzcfaHjBPBdKo?si=b3a438c17b624043&pt=389dc5a3f1b9268fda20d5a64e183bc5)
-- [Playlist 6](https://open.spotify.com/playlist/06YL9wvAiCBQPYSCN1NPkW?si=cf0890c4c4ed4f35&pt=15fcfce0c20dc4dd3d625aa5e1103b5e)
-- [Playlist 7](https://open.spotify.com/playlist/1xKk6ZFGqlJ8mBoL9fAKhm?si=8bf29137963b4eb5&pt=26eeb7afce2d54ef85cbf6f7206cc5e8)
+- [Playlist 1](https://open.spotify.com/playlist/7EqhbZpWL2bTsl9bYprD5K?si=1a457b9c0aac41b9)
+- [Playlist 2](https://open.spotify.com/playlist/2UjwUlCtMSG5fJqCIUduGb?si=3abe588148574e70)
+- [Playlist 3](https://open.spotify.com/playlist/0LOQHsLS4Ah8qoGEocD2BV?si=4184afd542fa49d2)
+- [Playlist 4](https://open.spotify.com/playlist/58zj05l9BBQ7qRF5aZAdJs?si=557c8f26d93f4f20)
+- [Playlist 5](https://open.spotify.com/playlist/2k1O2u8wcWzcfaHjBPBdKo?si=e3e0c6a016134024)
+- [Playlist 6](https://open.spotify.com/playlist/06YL9wvAiCBQPYSCN1NPkW?si=410add145ff4458e)
+- [Playlist 7](https://open.spotify.com/playlist/1xKk6ZFGqlJ8mBoL9fAKhm?si=02840b7989b34129)
 
 At some point I will be starting another project with the aim of consolidating my **whole** library with an entirely new clustering solution and implement a few more features but until then hopefully these playlists will be enjoyable!
 
