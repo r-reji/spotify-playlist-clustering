@@ -6,7 +6,7 @@
 
 The project is written in Python and makes use of Spotipy which is a Python wrapper for the Spotify Web API.
 
-#### Links: [Playlists](#playlist-links) | [Prerequisites](#prerequisites) | [Usage](#usage) | [Interactive Figures](#visualisations)
+#### Links: [Playlists](#playlist-links) | [Prerequisites](#prerequisites) | [Usage](#usage) | [Visualisations](#visualisations)
 
 #### Things to note
 - The data set does not take advantage of every metric available for analysis - this is something that I will revisit in the future. Two of the most important metrics I'd like to take advantage of are `Release Date` and `Popularity` as the current playlists generated have a mix of old and new songs which can be quite jarring even if the songs are similar.
@@ -43,22 +43,25 @@ I have included detailed explanations of each file within them, here I provide a
 
 #### Visualisations
 Here I include some of the visualisations generated. There are some other cumulative variance plots that you can check out in [figures.](https://github.com/r-reji/spotifyPlaylistClustering/tree/main/figures) 
-Please note that the figures that have hyperlinks below will take you to a lovely interactive version where hovers will give you song information.
+
+**Note:** the hyperlinked figures will take you to a version that displays song information on hover!
+
 
 - [Figure 1: 'Acousticness' vs 'Speechiness'](https://htmlpreview.github.io/?https://github.com/r-reji/spotifyPlaylistClustering/blob/main/figures/acousticnessSpeechiness.html) 
  
-![acousticnessSpeechiness](https://user-images.githubusercontent.com/112977394/196700847-249a9ad7-c260-4439-9805-a51015a95abb.png)
+>![acousticnessSpeechiness](https://user-images.githubusercontent.com/112977394/196700847-249a9ad7-c260-4439-9805-a51015a95abb.png)
 
 - [Figure 2: 'Energy' vs 'Danceability'](https://htmlpreview.github.io/?https://github.com/r-reji/spotifyPlaylistClustering/blob/main/figures/energyDanceability.html)
  
-![energyDanceability](https://user-images.githubusercontent.com/112977394/196703934-d9a6b759-670a-4289-8d9f-6ffc9829447e.png)
+>![energyDanceability](https://user-images.githubusercontent.com/112977394/196703934-d9a6b759-670a-4289-8d9f-6ffc9829447e.png)
 
 - [Figure 3: 'PCA Metric 1' vs 'PCA Metric 2'](https://htmlpreview.github.io/?https://github.com/r-reji/spotifyPlaylistClustering/blob/main/figures/metric1Metric2.html)
  
-![metric1Metric2](https://user-images.githubusercontent.com/112977394/196703971-9c4195ac-0e06-488c-8dc2-ce3d2ba45955.png)
+>![metric1Metric2](https://user-images.githubusercontent.com/112977394/196703971-9c4195ac-0e06-488c-8dc2-ce3d2ba45955.png)
 
 - Figure 4: 'PCA Metrics by Cluster'
-![pcaMetricsByCluster](https://user-images.githubusercontent.com/112977394/196703998-cd22d9f5-6cf2-4b12-bdbf-16d4b5274a7c.png)
+
+>![pcaMetricsByCluster](https://user-images.githubusercontent.com/112977394/196703998-cd22d9f5-6cf2-4b12-bdbf-16d4b5274a7c.png)
 
 #### Playlist Links
 I may change the privacy of the playlists over time so you will need the links to access them. I do not plan to update these playlists at any point but I will be implementing a better clustering solution at some in the near future.
