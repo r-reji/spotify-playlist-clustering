@@ -10,7 +10,7 @@ The project is written in Python and makes use of Spotipy which is a Python wrap
 
 #### Things to note
 - The data set does not take advantage of every metric available for analysis - this is something that I will revisit in the future. Two of the most important metrics I'd like to take advantage of are `Release Date` and `Popularity` as the current playlists generated have a mix of old and new songs which can be quite jarring even if the songs are similar.
-- During implementation, I noticed that a significant proportion (~25%) of the popularity values requested are zero. This is a known issue and is being worked on at the time of writing. This bug has impacted the type of visualisations I can produce and the level of analysis I can conduct - it is something I am looking forward to revisiting in the future.
+- During implementation, I noticed that a significant proportion (~25%) of the popularity values requested are zero - this is a known issue. This bug has impacted the type of visualisations I can produce and the level of analysis I can conduct - it is something I am looking forward to revisiting in the future.
 - Data extraction can take a long time to run (~1.2 seconds per song) depending on the subset of your library you are trying to extract. I have taken steps to introduce artificial delays to avoid hitting an API request limit - feel free to play with these values for slightly better performance at the risk of running a timeout error.
 - As explained in [data.py](https://github.com/r-reji/spotifyPlaylistClustering/blob/main/data.py), you can take advantage of parallel processing or multiple API keys for better data extraction performance - this is something you will need to implement yourself!
 
