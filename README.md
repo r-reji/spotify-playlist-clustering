@@ -1,4 +1,4 @@
-# spotifyPlaylistClustering
+# Spotify Playlist Clustering
 
 #### This project was an effort to organise my ever-growing Spotify library without having to manually assign thousands of songs to each of my many playlists. It makes use of clustering algorithms on track audio feature data that is extracted using Spotipy. 
 
