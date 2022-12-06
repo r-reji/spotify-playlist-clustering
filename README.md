@@ -2,7 +2,7 @@
 
 #### This project was an effort to organise my ever-growing Spotify library without having to manually assign thousands of songs to each of my many playlists. It makes use of clustering algorithms on track audio feature data that is extracted using [Spotipy](https://spotipy.readthedocs.io/en/2.21.0/). 
 
-#### If you would like to take a look at the playlists generated check out these links.
+#### If you would like to take a look at the playlists generated check them out at the links below.
 
 The project is written in Python and makes use of Spotipy which is a Python wrapper for the Spotify Web API.
 
